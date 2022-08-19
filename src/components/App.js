@@ -18,10 +18,10 @@ function App() {
       <div style={{ paddingTop: '69px', minHeight: 'calc(100vh - 80px)' }}>
         <Switch>
           <Route exact path="reactMovieClient/" component={Auth(LandingPage, null)} />
-          <Route exact path="reactMovieClient/login" component={Auth(LoginPage, false)} />
-          <Route exact path="reactMovieClient/register" component={Auth(RegisterPage, false)} />
-          <Route exact path="reactMovieClient/movie/:movieId" component={Auth(MovieDetail, null)} />
-          <Route exact path="reactMovieClient/favorite" component={Auth(FavoritePage, null)} />
+          <Route exact path="/reactMovieClient/login" component={Auth(LoginPage, false)} />
+          <Route exact path="/reactMovieClient/register" component={Auth(RegisterPage, false)} />
+          <Route exact path="/reactMovieClient/movie/:movieId" component={Auth(MovieDetail, null)} />
+          <Route exact path="/reactMovieClient/favorite" component={Auth(FavoritePage, null)} />
           <Route path="*" component={Error404}/>
         </Switch>
       </div>
