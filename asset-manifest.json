@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactMovieClient/static/css/main.27384cf9.chunk.css",
-    "main.js": "/reactMovieClient/static/js/main.52a39c67.chunk.js",
-    "main.js.map": "/reactMovieClient/static/js/main.52a39c67.chunk.js.map",
-    "runtime~main.js": "/reactMovieClient/static/js/runtime~main.203b1d11.js",
-    "runtime~main.js.map": "/reactMovieClient/static/js/runtime~main.203b1d11.js.map",
-    "static/css/2.6547dd70.chunk.css": "/reactMovieClient/static/css/2.6547dd70.chunk.css",
-    "static/js/2.e6a47925.chunk.js": "/reactMovieClient/static/js/2.e6a47925.chunk.js",
-    "static/js/2.e6a47925.chunk.js.map": "/reactMovieClient/static/js/2.e6a47925.chunk.js.map",
-    "index.html": "/reactMovieClient/index.html",
-    "precache-manifest.a4eb2c6828b5f845b64c5637b67760a7.js": "/reactMovieClient/precache-manifest.a4eb2c6828b5f845b64c5637b67760a7.js",
-    "service-worker.js": "/reactMovieClient/service-worker.js",
-    "static/css/2.6547dd70.chunk.css.map": "/reactMovieClient/static/css/2.6547dd70.chunk.css.map",
-    "static/css/main.27384cf9.chunk.css.map": "/reactMovieClient/static/css/main.27384cf9.chunk.css.map"
+    "main.css": "/movie-client/static/css/main.27384cf9.chunk.css",
+    "main.js": "/movie-client/static/js/main.8309a385.chunk.js",
+    "main.js.map": "/movie-client/static/js/main.8309a385.chunk.js.map",
+    "runtime~main.js": "/movie-client/static/js/runtime~main.7e31978f.js",
+    "runtime~main.js.map": "/movie-client/static/js/runtime~main.7e31978f.js.map",
+    "static/css/2.6547dd70.chunk.css": "/movie-client/static/css/2.6547dd70.chunk.css",
+    "static/js/2.d0037649.chunk.js": "/movie-client/static/js/2.d0037649.chunk.js",
+    "static/js/2.d0037649.chunk.js.map": "/movie-client/static/js/2.d0037649.chunk.js.map",
+    "index.html": "/movie-client/index.html",
+    "precache-manifest.351f51b1f538f69b6292a6e65a47d103.js": "/movie-client/precache-manifest.351f51b1f538f69b6292a6e65a47d103.js",
+    "service-worker.js": "/movie-client/service-worker.js",
+    "static/css/2.6547dd70.chunk.css.map": "/movie-client/static/css/2.6547dd70.chunk.css.map",
+    "static/css/main.27384cf9.chunk.css.map": "/movie-client/static/css/main.27384cf9.chunk.css.map"
   }
 }
