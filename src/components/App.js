@@ -9,6 +9,7 @@ import NavBar from "./views/NavBar/NavBar";
 import Footer from "./views/Footer/Footer"
 import MovieDetail from "./views/MovieDetail/MovieDetail"
 import FavoritePage from "./views/FavoritePage/FavoritePage"
+import { Error404 } from './views/Error/Error404';
 function App() {
   return (
     <Suspense fallback={(<div>Loading...</div>)}>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/register" component={RegisterPage} />
           <Route path="/movie/:movieId" component={MovieDetail} />
           <Route path="/favorite" component={FavoritePage} />
+          <Route path="*" component={Error404}/>
         </Switch>
       </div>
       <Footer />

@@ -8,7 +8,7 @@ function LeftMenu(props) {
   return (
     <Menu mode={props.mode}>
       <Menu.Item key="favorite">
-        <a href="/favorite">Favorite</a>
+        <a href="https://mayurmallavsaikia.github.io/movie-client/#/favorite">Favorite</a>
       </Menu.Item>
     </Menu>
   )

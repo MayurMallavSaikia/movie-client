@@ -34,10 +34,10 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item key="mail">
-          <a href="/login">Signin</a>
+          <a href="https://mayurmallavsaikia.github.io/movie-client/#/login">Signin</a>
         </Menu.Item>
         <Menu.Item key="app">
-          <a href="/register">Signup</a>
+          <a href="https://mayurmallavsaikia.github.io/movie-client/#/register">Signup</a>
         </Menu.Item>
       </Menu>
     )
@@ -45,7 +45,7 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item>
-        <a href="">Hi, {localStorage.getItem('name')}</a>
+        <a href="https://MayurMallavSaikia.github.io/movie-client/#/">Hi, {localStorage.getItem('name')}</a>
         </Menu.Item>
          
        <Menu.Item key="logout">

@@ -79,7 +79,7 @@ function FavoritePage() {
             <hr />
                 <div style={{ width: '100%', fontSize: '2rem', height: '500px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                     <p>Please Log in first...</p>
-                    <a href="/login">Go to Login page</a>
+                    <a href="https://mayurmallavsaikia.github.io/movie-client/#/login">Go to Login page</a>
                 </div>
                 </div>
         )
