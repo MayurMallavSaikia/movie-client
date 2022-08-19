@@ -15,11 +15,11 @@ function App() {
       <NavBar />
       <div style={{ paddingTop: '69px', minHeight: 'calc(100vh - 80px)' }}>
         <Switch>
-          <Route exact path="/reactMovieClient" component={LandingPage} />
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/register" component={RegisterPage} />
-          <Route exact path="/movie/:movieId" component={MovieDetail} />
-          <Route exact path="/favorite" component={FavoritePage} />
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/login" component={LoginPage} />
+          <Route path="/register" component={RegisterPage} />
+          <Route path="/movie/:movieId" component={MovieDetail} />
+          <Route path="/favorite" component={FavoritePage} />
         </Switch>
       </div>
       <Footer />
