@@ -20,7 +20,7 @@ function RightMenu(props) {
    .then(response => {
     if (response.payload.success) {
        localStorage.clear()
-      props.history.push("/login");
+      props.history.push("reactMovieClient/login");
     } else {
       alert("Logout unsuccessful !")
     }
@@ -34,10 +34,10 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item key="mail">
-          <a href="/login">Signin</a>
+          <a href="/reactMovieClient/login">Signin</a>
         </Menu.Item>
         <Menu.Item key="app">
-          <a href="/register">Signup</a>
+          <a href="/reactMovieClient/register">Signup</a>
         </Menu.Item>
       </Menu>
     )
