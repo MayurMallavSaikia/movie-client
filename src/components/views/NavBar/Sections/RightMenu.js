@@ -34,10 +34,10 @@ function RightMenu(props) {
     return (
       <Menu mode={props.mode}>
         <Menu.Item key="mail">
-          <a href="/reactMovieClient/login">Signin</a>
+          <a href="/login">Signin</a>
         </Menu.Item>
         <Menu.Item key="app">
-          <a href="/reactMovieClient/register">Signup</a>
+          <a href="/register">Signup</a>
         </Menu.Item>
       </Menu>
     )
