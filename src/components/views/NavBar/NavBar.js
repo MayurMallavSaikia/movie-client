@@ -20,7 +20,7 @@ function NavBar() {
    return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="menu__logo">
-        <a href="/reactMovieClient"><img src={Logo} alt="Logo" style={{ width: '100%', marginTop: '-5px' }} /></a>
+        <a href="/"><img src={Logo} alt="Logo" style={{ width: '100%', marginTop: '-5px' }} /></a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
