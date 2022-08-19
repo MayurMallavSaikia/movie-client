@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactMovieClient/static/css/main.27384cf9.chunk.css",
-    "main.js": "/reactMovieClient/static/js/main.d95fd1e6.chunk.js",
-    "main.js.map": "/reactMovieClient/static/js/main.d95fd1e6.chunk.js.map",
+    "main.js": "/reactMovieClient/static/js/main.d609bf65.chunk.js",
+    "main.js.map": "/reactMovieClient/static/js/main.d609bf65.chunk.js.map",
     "runtime~main.js": "/reactMovieClient/static/js/runtime~main.203b1d11.js",
     "runtime~main.js.map": "/reactMovieClient/static/js/runtime~main.203b1d11.js.map",
     "static/css/2.6547dd70.chunk.css": "/reactMovieClient/static/css/2.6547dd70.chunk.css",
-    "static/js/2.3661db53.chunk.js": "/reactMovieClient/static/js/2.3661db53.chunk.js",
-    "static/js/2.3661db53.chunk.js.map": "/reactMovieClient/static/js/2.3661db53.chunk.js.map",
+    "static/js/2.e6a47925.chunk.js": "/reactMovieClient/static/js/2.e6a47925.chunk.js",
+    "static/js/2.e6a47925.chunk.js.map": "/reactMovieClient/static/js/2.e6a47925.chunk.js.map",
     "index.html": "/reactMovieClient/index.html",
-    "precache-manifest.1751f968838ef3d4ec936aaa6c45eecc.js": "/reactMovieClient/precache-manifest.1751f968838ef3d4ec936aaa6c45eecc.js",
+    "precache-manifest.5823f47e1fe5fd9fc2766d51a7fe40d0.js": "/reactMovieClient/precache-manifest.5823f47e1fe5fd9fc2766d51a7fe40d0.js",
     "service-worker.js": "/reactMovieClient/service-worker.js",
     "static/css/2.6547dd70.chunk.css.map": "/reactMovieClient/static/css/2.6547dd70.chunk.css.map",
     "static/css/main.27384cf9.chunk.css.map": "/reactMovieClient/static/css/main.27384cf9.chunk.css.map"
