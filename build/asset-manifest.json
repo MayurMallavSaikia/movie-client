@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.27384cf9.chunk.css",
-    "main.js": "/static/js/main.5d9fd2f7.chunk.js",
-    "main.js.map": "/static/js/main.5d9fd2f7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.6547dd70.chunk.css": "/static/css/2.6547dd70.chunk.css",
-    "static/js/2.7cdcee44.chunk.js": "/static/js/2.7cdcee44.chunk.js",
-    "static/js/2.7cdcee44.chunk.js.map": "/static/js/2.7cdcee44.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8168bb1852ec18022b8a29fd0b9e3b59.js": "/precache-manifest.8168bb1852ec18022b8a29fd0b9e3b59.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.6547dd70.chunk.css.map": "/static/css/2.6547dd70.chunk.css.map",
-    "static/css/main.27384cf9.chunk.css.map": "/static/css/main.27384cf9.chunk.css.map"
+    "main.css": "/reactMovieClient/static/css/main.27384cf9.chunk.css",
+    "main.js": "/reactMovieClient/static/js/main.9e25452a.chunk.js",
+    "main.js.map": "/reactMovieClient/static/js/main.9e25452a.chunk.js.map",
+    "runtime~main.js": "/reactMovieClient/static/js/runtime~main.203b1d11.js",
+    "runtime~main.js.map": "/reactMovieClient/static/js/runtime~main.203b1d11.js.map",
+    "static/css/2.6547dd70.chunk.css": "/reactMovieClient/static/css/2.6547dd70.chunk.css",
+    "static/js/2.b4b64f69.chunk.js": "/reactMovieClient/static/js/2.b4b64f69.chunk.js",
+    "static/js/2.b4b64f69.chunk.js.map": "/reactMovieClient/static/js/2.b4b64f69.chunk.js.map",
+    "index.html": "/reactMovieClient/index.html",
+    "precache-manifest.0668da909ce99f2d30ba0009621a4df3.js": "/reactMovieClient/precache-manifest.0668da909ce99f2d30ba0009621a4df3.js",
+    "service-worker.js": "/reactMovieClient/service-worker.js",
+    "static/css/2.6547dd70.chunk.css.map": "/reactMovieClient/static/css/2.6547dd70.chunk.css.map",
+    "static/css/main.27384cf9.chunk.css.map": "/reactMovieClient/static/css/main.27384cf9.chunk.css.map"
   }
 }
