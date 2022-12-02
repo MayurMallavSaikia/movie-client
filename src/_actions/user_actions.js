@@ -10,7 +10,7 @@ import { USER_SERVER } from '../components/Config.js';
 
 
 export function registerUser(dataToSubmit){
-    const request = axios.post("https://cinemahdbackend.herokuapp.com/api/users/register",dataToSubmit)
+    const request = axios.post("https://dummyserver-production-abe1.up.railway.app/api/users/register",dataToSubmit)
         .then(response => response.data);
     
     return {
@@ -20,7 +20,7 @@ export function registerUser(dataToSubmit){
 }
 
 export function loginUser(dataToSubmit){
-    const request = axios.post("https://cinemahdbackend.herokuapp.com/api/users/login",dataToSubmit)
+    const request = axios.post("https://dummyserver-production-abe1.up.railway.app/api/users/login",dataToSubmit)
                 .then(response => response.data);
 
     return {
@@ -40,7 +40,7 @@ export function auth(){
 }
 
 export function logoutUser(dataToSubmit){
-    const request = axios.post("https://cinemahdbackend.herokuapp.com/api/users/logout",dataToSubmit)
+    const request = axios.post("https://dummyserver-production-abe1.up.railway.app/api/users/logout",dataToSubmit)
     .then(response => response.data);
 
     return {

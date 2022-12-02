@@ -30,7 +30,7 @@ function Favorite(props) {
 
         if (Favorited) {
             //when we are already subscribed 
-            axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/removeFromFavorite', variables)
+            axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/removeFromFavorite', variables)
                 .then(response => {
                     if (response.data.success) {
                         setFavoriteNumber(FavoriteNumber - 1)
@@ -43,7 +43,7 @@ function Favorite(props) {
         } else {
             // when we are not subscribed yet
 
-            axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/addToFavorite', variables)
+            axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/addToFavorite', variables)
                 .then(response => {
                     if (response.data.success) {
                         setFavoriteNumber(FavoriteNumber + 1)
@@ -57,7 +57,7 @@ function Favorite(props) {
 
     useEffect(() => {
 
-        axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/favoriteNumber', variables)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/favoriteNumber', variables)
             .then(response => {
                 if (response.data.success) {
                     setFavoriteNumber(response.data.subscribeNumber)
@@ -66,7 +66,7 @@ function Favorite(props) {
                 }
             })
 
-        axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/favorited', variables)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/favorited', variables)
             .then(response => {
                 if (response.data.success) {
                     setFavorited(response.data.subcribed)

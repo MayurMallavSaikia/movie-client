@@ -29,7 +29,7 @@ function Comments(props) {
         }
         console.log(variables)
 
-        axios.post('https://cinemahdbackend.herokuapp.com/api/comment/saveComment', variables)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/comment/saveComment', variables)
             .then(response => {
                 if (response.data.success) {
                     setComment("")

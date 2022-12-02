@@ -27,7 +27,7 @@ function MovieDetailPage(props) {
         let endpointForMovieInfo = `${API_URL}movie/${movieId}?api_key=${API_KEY}&language=en-US`;
         fetchDetailInfo(endpointForMovieInfo)
 
-        axios.post('https://cinemahdbackend.herokuapp.com/api/comment/getComments', movieVariable)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/comment/getComments', movieVariable)
             .then(response => {
                 console.log(response)
                 if (response.data.success) {

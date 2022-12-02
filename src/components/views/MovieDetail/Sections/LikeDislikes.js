@@ -23,7 +23,7 @@ function LikeDislikes(props) {
 
     useEffect(() => {
 
-        Axios.post('https://cinemahdbackend.herokuapp.com/api/like/getLikes', variable)
+        Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/getLikes', variable)
             .then(response => {
                 console.log('getLikes',response.data)
 
@@ -42,7 +42,7 @@ function LikeDislikes(props) {
                 }
             })
 
-        Axios.post('https://cinemahdbackend.herokuapp.com/api/like/getDislikes', variable)
+        Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/getDislikes', variable)
             .then(response => {
                 console.log('getDislike',response.data)
                 if (response.data.success) {
@@ -71,7 +71,7 @@ function LikeDislikes(props) {
 
         if (LikeAction === null) {
 
-            Axios.post('https://cinemahdbackend.herokuapp.com/api/like/upLike', variable)
+            Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/upLike', variable)
                 .then(response => {
                     if (response.data.success) {
 
@@ -94,7 +94,7 @@ function LikeDislikes(props) {
 
         } else {
 
-            Axios.post('https://cinemahdbackend.herokuapp.com/api/like/unLike', variable)
+            Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/unLike', variable)
                 .then(response => {
                     if (response.data.success) {
 
@@ -119,7 +119,7 @@ function LikeDislikes(props) {
 
         if (DislikeAction !== null) {
 
-            Axios.post('https://cinemahdbackend.herokuapp.com/api/like/unDisLike', variable)
+            Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/unDisLike', variable)
                 .then(response => {
                     if (response.data.success) {
 
@@ -133,7 +133,7 @@ function LikeDislikes(props) {
 
         } else {
 
-            Axios.post('https://cinemahdbackend.herokuapp.com/api/like/upDisLike', variable)
+            Axios.post('https://dummyserver-production-abe1.up.railway.app/api/like/upDisLike', variable)
                 .then(response => {
                     if (response.data.success) {
 

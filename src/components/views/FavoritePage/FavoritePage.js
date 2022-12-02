@@ -19,7 +19,7 @@ function FavoritePage() {
     }, [])
 
     const fetchFavoredMovie = () => {
-        axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/getFavoredMovie', variable)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/getFavoredMovie', variable)
             .then(response => {
                 if (response.data.success) {
                     console.log(response.data.favorites)
