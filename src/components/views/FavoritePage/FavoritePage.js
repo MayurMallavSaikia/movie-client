@@ -38,7 +38,7 @@ function FavoritePage() {
             userFrom: userFrom,
         }
 
-        axios.post('https://cinemahdbackend.herokuapp.com/api/favorite/removeFromFavorite', variables)
+        axios.post('https://dummyserver-production-abe1.up.railway.app/api/favorite/removeFromFavorite', variables)
             .then(response => {
                 if (response.data.success) {
                     fetchFavoredMovie()
